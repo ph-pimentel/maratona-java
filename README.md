@@ -2,7 +2,7 @@
  Este repositório contém materiais e códigos relacionados ao meu estudo de Java. Aqui você encontrara anotações, exercicios durante a minha aprendizagem da linguagem de programação. 
 ___
 ## Estrutura do Repositorio
-- **`/introducao`** - Conceitos fundamentais da linguagem Java, como sintaxe, variáveis, estruturas de condicionais.
+- **`src/estudos/pedro/maratonajava/introducao`** - Conceitos fundamentais da linguagem Java, como sintaxe, variáveis, estruturas de condicionais.
 ___
 ## Pré-requisitos
 Para rodar os códigos presentes nesse repositório, será necessario de:
@@ -12,7 +12,7 @@ ___
 ## Como Usar
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/ph-pimentel/maratona-java.git
    ```
 2. Acesse a pasta e abra os arquivos `.java`
 3. Compile e execute com:
