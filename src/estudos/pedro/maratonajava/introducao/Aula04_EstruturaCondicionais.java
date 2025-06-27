@@ -30,5 +30,24 @@ public class Aula04_EstruturaCondicionais {
         //String alertTernario =  buyPs5AndJogo ? "Você pode comprar o Ps5 e um jogo" : buyPs5 ? "Você pode comprar o Ps5" : "Você não pode comprar nada";
         System.out.println(alert);
 
+        //Switch Exercicio Dia Útil e Final de Semana
+        byte dias = 5;
+        switch (dias){
+            case 7:{}
+            case 1:{
+                System.out.println("Day work");
+                break;
+            }
+            case 2:{}
+            case 3:{}
+            case 4:{}
+            case 5:{}
+            case 6:{
+                System.out.println("Day off");
+                break;
+            }
+
+        }
+
     }
 }

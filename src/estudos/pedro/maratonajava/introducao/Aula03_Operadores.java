@@ -2,7 +2,7 @@ package estudos.pedro.maratonajava.introducao;
 
 /**
  * Operadores Aritiméticos
- * Comuns -> + - / *
+ * Comuns: + - / *
  */
 
 /**
@@ -51,7 +51,7 @@ public class Aula03_Operadores {
         System.out.println(result);
         System.out.println(resultDecimal);
 
-        //Operadores Logicos
+        //Operadores Lógicos
         double salario = 2000D;
         double xbox = 1500D;
         double valorParcelado = 500D;

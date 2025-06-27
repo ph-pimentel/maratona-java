@@ -19,12 +19,14 @@ package estudos.pedro.maratonajava.introducao;
 
 public class Aula02_TiposPrimitivos {
     public static void main (String[] args){
-        int age = (int) 100.60D;
+        int age = 100;
+        long ageCasting = age; // Casting Implícito = não gera perdas
         boolean cpf = false;
         double money = 200.00D;
+        int moneyCastin = (int) money; // Casting explícito = perdeu decimais
         float temp = 34.5F;
         String name = "Goku";
-        System.out.println("Seu nome é: " + name + ". Sua idade é: " + age + ". Seu CPF é: " + cpf);
-        System.out.println("Seu dinheiro: " + money + ". Temperatura: " + temp);
+        System.out.println("Seu nome é: " + name + ". Sua idade é: " + ageCasting + ". Seu CPF é: " + cpf);
+        System.out.println("Seu dinheiro: " + moneyCastin + ". Temperatura: " + temp);
     }
 }
